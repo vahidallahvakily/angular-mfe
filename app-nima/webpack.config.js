@@ -32,7 +32,7 @@ module.exports = {
         name: "appNima",
         filename: "nima.js",
         exposes: {
-            './nima': './/src/app/app.component.ts',
+          './bim': './/src/app/bim/bim.module.ts',
         },
 
         // For hosts (please adjust)

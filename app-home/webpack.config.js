@@ -28,18 +28,6 @@ module.exports = {
     new ModuleFederationPlugin({
         library: { type: "module" },
 
-        // For remotes (please adjust)
-        // name: "appHome",
-        // filename: "remoteEntry.js",
-        // exposes: {
-        //     './Component': './/src/app/app.component.ts',
-        // },
-
-        // For hosts (please adjust)
-      remotes: {
-        "swt": "http://localhost:5200/swt.js",
-        "nima": "http://localhost:5300/nima.js",
-      },
 
         shared: share({
           "@angular/core": { singleton: true, strictVersion: true, requiredVersion: 'auto' },
