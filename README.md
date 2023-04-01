@@ -1,8 +1,8 @@
 ## Angular Module Seperation
 
-This source has two branches
- - feature/seperate-branch
- - feature/module-federation
+- Using Angular Module Federation
+- It also has nginx config if we want to use the first approach .
+
 
 
 
